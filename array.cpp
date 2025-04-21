@@ -17,7 +17,15 @@ int main()
     cout << "Nilai array ke 3 = " << nilai[2] << endl;
 
     // mengisi array dengan menggunakan looping for
+    for (int i = 0; i < 4; i++)
+    {
+        cout << "Masukan nama ke " << i + 1 << " = ";
+        cin >> nama[i];
+    }
 
+    cout << endl;
+    cout << "Menampilkan Array Nama" << endl;
+    cout << endl;
 
 
 }
